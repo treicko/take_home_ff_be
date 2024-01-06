@@ -2,9 +2,17 @@
 
 App that showns git commit history on the public repository
 
+## Install dependencies
+
+Run the following command to install all dependencies
+
+```shell
+npm install
+```
+
 ## Configure environment variables
 
-In the project directory add .env file and add the following environment variables:
+In the project directory add '.env' file and add the following environment variables:
 
 ```shell
 GIT_HUB_ACCESS_TOKEN="<Your-github-access-token>"
