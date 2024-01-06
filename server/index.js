@@ -2,6 +2,7 @@ import express from 'express';
 import cors from "cors";
 import Repositories from "./modules/repositories/api.js";
 import Authenticate from "./modules/authentication/api.js";
+import Branches from "./modules/branches/api.js";
 import { ServiceError } from "./core/services/github/errorHandler.js"
 
 const app = express();
@@ -17,6 +18,7 @@ app.listen(port, () => {
 
 Authenticate.registerModule(app);
 Repositories.registerModule(app);
+Branches.registerModule(app);
 
 app.use((err, req, res, next) => {
   let statusCode = 500;
