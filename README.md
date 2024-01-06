@@ -11,7 +11,6 @@ GIT_HUB_ACCESS_TOKEN="<Your-github-access-token>"
 GITHUB_CLIENT_ID="<Your-github-client-ID>"
 GITHUB_CLIENT_SECRET="<Your-github-client-secret>"
 ```
-This github access will be expired at 7 days (12/January/2024)
 
 ## Available Scripts
 
