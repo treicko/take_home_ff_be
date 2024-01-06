@@ -7,9 +7,9 @@ App that showns git commit history on the public repository
 In the project directory add .env file and add the following environment variables:
 
 ```shell
-GIT_HUB_ACCESS_TOKEN="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"
-GITHUB_CLIENT_ID="668d3b83cc32e817b555"
-GITHUB_CLIENT_SECRET="619d314b73cc0f23b56cd1bfdb01066340993f78"
+GIT_HUB_ACCESS_TOKEN="<Your-github-access-token>"
+GITHUB_CLIENT_ID="<Your-github-client-ID>"
+GITHUB_CLIENT_SECRET="<Your-github-client-secret>"
 ```
 This github access will be expired at 7 days (12/January/2024)
 
