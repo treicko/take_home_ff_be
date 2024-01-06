@@ -4,7 +4,8 @@
   "description": "Api that shows git commit history",
   "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
   },
   "author": "Leonardo Mejia Pacheco",
   "license": "ISC",
