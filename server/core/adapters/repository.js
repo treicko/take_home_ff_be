@@ -23,6 +23,6 @@ export default class RepositoryAdapter {
             "visibility": repository.visibility,
             "watchers": repository.watchers
           };
-      });;
+      });
     }
 }
